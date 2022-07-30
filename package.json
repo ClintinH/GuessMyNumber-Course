@@ -1,0 +1,23 @@
+{
+  "name": "guessmynumber-course",
+  "version": "1.0.0",
+  "description": "Guessing Game",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist --no-scope-hoist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClintinH/GuessMyNumber-Course.git"
+  },
+  "author": "Clintin Herholdt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClintinH/GuessMyNumber-Course/issues"
+  },
+  "homepage": "https://github.com/ClintinH/GuessMyNumber-Course#readme",
+  "dependencies": {
+    "parcel": "^2.6.2"
+  }
+}
